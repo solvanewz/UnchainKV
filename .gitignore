@@ -1,0 +1,34 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local environments
+.env
+.venv/
+venv/
+
+# Generated data and training outputs
+runs/
+ppt/
+outputs/*
+!outputs/.gitkeep
+!outputs/platform_sft_alpaca_cot_rewrite_full_v1_report.json
+*.jsonl
+!data/platform_sft_alpaca_cot_rewrite_full_v1.jsonl
+*.parquet
+*.arrow
+*.tar
+*.tar.gz
+*.zip
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# LaTeX build output
+/papers/build/
+base/
